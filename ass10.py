@@ -13,9 +13,9 @@ def display():
     search = entry.get()
     print(search)
     if search:
-        l1.config(text="Navigating to...")
+        l1.config(text="Navigating to Purplle...")
         
-        wb.open(f"https://www.google.com/search?q=nykaa&rlz={search}")
+        wb.open(f"https://www.purplle.com/={search}")
     else:
         print("Please enter something")
 
